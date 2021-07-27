@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+body .container .logo img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+body .container h3 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+body .container .exercice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body .container .exercice .exercice-complete {
+  background: blue;
+  width: 50%;
+}
+
+body .container .exercice .exercice-complete img {
+  width: 100%;
+  height: 100%;
+}
+
+body .container .exercice .excercice-incomplete {
+  background: red;
+  width: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2 1fr;
+      grid-template-columns: 2 1fr;
+  grid-template: 2 1fr;
+}
+
+body .container .exercice .excercice-incomplete img {
+  width: 100%;
+  height: 100%;
+}
+
+body .container .exercice .excercice-incomplete .grid-one {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+body .container .exercice .excercice-incomplete .grid-two {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+body .container .exercice .excercice-incomplete .grid-three {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+body .container .exercice .excercice-incomplete .grid-four {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+/*# sourceMappingURL=style.css.map */
